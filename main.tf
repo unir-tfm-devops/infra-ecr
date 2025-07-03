@@ -3,3 +3,9 @@ module "spring-boot-template" {
 
   name = "spring-boot-template"
 }
+
+module "products-service" {
+  source = "./modules/ecr"
+
+  name = "products-service"
+}
