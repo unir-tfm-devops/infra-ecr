@@ -3,3 +3,9 @@ module "spring-boot-template" {
 
   name = "spring-boot-template"
 }
+
+module "nodejs-template" {
+  source = "./modules/ecr"
+
+  name = "nodejs-template"
+}
