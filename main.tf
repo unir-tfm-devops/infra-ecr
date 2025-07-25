@@ -1,5 +1,11 @@
-module "products-service" {
+module "spring-boot-template" {
   source = "./modules/ecr"
 
-  name = "products-service"
+  name = "spring-boot-template"
+}
+
+module "nodejs-template" {
+  source = "./modules/ecr"
+
+  name = "nodejs-template"
 }
