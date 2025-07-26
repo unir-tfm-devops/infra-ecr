@@ -1,3 +1,9 @@
+module "platform-ai" {
+  source = "./modules/ecr"
+
+  name = "platform-ai"
+}
+
 module "spring-boot-template" {
   source = "./modules/ecr"
 
