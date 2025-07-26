@@ -1,11 +1,5 @@
-module "spring-boot-template" {
+module "carousels-service" {
   source = "./modules/ecr"
 
-  name = "spring-boot-template"
-}
-
-module "nodejs-template" {
-  source = "./modules/ecr"
-
-  name = "nodejs-template"
+  name = "carousels-service"
 }
