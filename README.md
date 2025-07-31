@@ -14,7 +14,7 @@ This Terraform project manages:
 ## 📁 Project Structure
 
 ```
-terraform-ecr/
+infra-ecr/
 ├── main.tf                 # ECR repositories configuration
 ├── providers.tf            # AWS provider configuration
 ├── backend.tf              # Terraform backend configuration
