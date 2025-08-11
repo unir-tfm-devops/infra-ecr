@@ -9,3 +9,9 @@ module "nodejs-template" {
 
   name = "nodejs-template"
 }
+
+module "products-api" {
+  source = "./modules/ecr"
+
+  name = "products-api"
+}
