@@ -9,9 +9,3 @@ module "nodejs-template" {
 
   name = "nodejs-template"
 }
-
-module "bank-service" {
-  source = "./modules/ecr"
-
-  name = "bank-service"
-}
